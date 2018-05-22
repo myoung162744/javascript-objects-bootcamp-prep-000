@@ -3,8 +3,8 @@ var playlist = {
   macMiller: 'Smile Back'
 };
 
-function updatePlaylist(obj,artist,song) {
-  return obj.assign({}, obj, { artist: song })
+function updatePlaylist(playlist,artist,song) {
+  return playlist.assign({}, playlist, { artist: song })
 }
 
 function removeFromPlaylist(obj, artist) {
