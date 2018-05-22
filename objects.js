@@ -3,8 +3,9 @@ var playlist = {
   macMiller: 'Smile Back'
 };
 
-function updatePlaylist(playlist,artist,song) {
-  return playlist.assign({}, playlist, { artist: song })
+function updatePlaylist(obj,artist,song) {
+  obj[artist] = value
+  return obj
 }
 
 function removeFromPlaylist(obj, artist) {
