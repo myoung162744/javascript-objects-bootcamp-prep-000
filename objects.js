@@ -1,6 +1,6 @@
 var playlist = {
-  glass animals: 'Aggie',
-  mac miller: 'Smile Back'
+  glassAnimals: 'Aggie',
+  macMiller: 'Smile Back'
 };
 
 function updatePlaylist(obj,artist,song) {
